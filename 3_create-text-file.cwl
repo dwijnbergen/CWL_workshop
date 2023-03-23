@@ -4,11 +4,11 @@ class: CommandLineTool
 requirements:
   InitialWorkDirRequirement:
     listing:
-    - entryname: python_script
+    - entryname: create-text-script
       entry:
         $include: ./3_create-text-file.py
 
-baseCommand: ["python3", "python_script"]
+baseCommand: ["python3", "create-text-script"]
 
 inputs:
   text:
