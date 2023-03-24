@@ -35,3 +35,8 @@ cwl-runner 4_analyze-text-file.cwl --input_file output.txt
 ```
 cwl-runner 5_workflow.cwl 3_test.yml
 ```
+
+## More information
+[CWL User Guide](https://www.commonwl.org/user_guide/)
+
+[CWL Documentation](https://www.commonwl.org/v1.2/)
