@@ -21,7 +21,7 @@ inputs:
       position: 2
 
 outputs:
-  repeated_text_file:
+  output_file:
     type: File
     outputBinding:
       glob: output.txt

@@ -11,13 +11,13 @@ requirements:
 baseCommand: ["python3", "analyze-text-script"]
 
 inputs:
-  text_file:
+  input_file:
     type: File
     inputBinding:
       position: 1
 
 outputs:
-  count_file:
+  output_file:
     type: File
     outputBinding:
       glob: counts.txt
