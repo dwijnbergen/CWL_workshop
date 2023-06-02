@@ -1,7 +1,9 @@
-# Common Workflow Language
+# Common Workflow Language Workshop
+This repository contains the resources used for a workshop about Common Workflow Language. It consists of simple examples building on top of each other, with explanations in a PowerPoint presentation.
 
+Linux users can run everything directly in a terminal. For other operating systems, a Virtual Machine, or Google Colaboratory can be used (see below).
 
-## Preparation
+## Preparation (Linux)
 ### Install CWL
 ```
 sudo apt intall cwltool
@@ -10,7 +12,7 @@ sudo apt intall cwltool
 ### Download CWL and Python code
 Download the python and CWL files from this repository, and put these in one directory. Run the following commands from the same directory.
 
-## Run example workflows
+## Run example workflows (Linux)
 ### Example 1: Hello world!
 ```
 cwl-runner 1_hello-world.cwl
