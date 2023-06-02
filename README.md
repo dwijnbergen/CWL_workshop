@@ -8,9 +8,9 @@ sudo apt intall cwltool
 ```
 
 ### Download CWL and Python code
-Download the python and CWL files, and put these in one directory. Run the following commands from the same directory.
+Download the python and CWL files from this repository, and put these in one directory. Run the following commands from the same directory.
 
-## Run examples
+## Run example workflows
 ### Example 1: Hello world!
 ```
 cwl-runner 1_hello-world.cwl
@@ -35,6 +35,17 @@ cwl-runner 4_analyze-text-file.cwl --input_file output.txt
 ```
 cwl-runner 5_workflow.cwl 3_test.yml
 ```
+
+## For non Linux users (Google Colab)
+Download the notebook, CWL and python code from this repository.
+
+Open the [Google Colab](https://colab.research.google.com/) website, and wait for it to connect to a runtime.
+
+Upload the notebook (File -> Upload Notebook).
+
+Upload the CWL and Python code in the default folder (in the left side bar: Directory icon -> Upload file icon).
+
+Run the examples.
 
 ## More information
 [CWL User Guide](https://www.commonwl.org/user_guide/)
